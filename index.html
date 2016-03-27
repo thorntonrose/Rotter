@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>ROT13</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>Rotter</h1>
+
+<p>Rotter is a simple program for encrypting and decrypting text using the 
+ROT13 and ROT13N5 algorithms.</p>
+
+<p>ROT13 rotates each letter of the text 13 places forward in the alphabet,
+so A => N, B => O, etc.  ROT13N5 is a variation of ROT13 that, in addition to
+rotating letters, rotates numbers (digits) 5 places forward, so 0 => 5, 1 => 6,
+etc. Here are some examples:</p>
+
+<blockquote>
+<table border=0>
+   <tr><td>Text:</td>    <td>Meet me at 1:45 PM.</td></tr>
+   <tr><td>ROT13:</td>   <td>Zrrg zr ng 1:45 CZ.</td></tr>
+   <tr><td>ROT13N5:</td> <td>Zrrg zr ng 6:90 CZ.</td></tr>
+</table>
+</blockquote>
+
+<p>To encrypt a message, enter the text, then click the "Rot13" button or 
+the "Rot13n5" button. To decrypt a message, do the same thing. To clear the 
+text, click the "Clear" button.</p>
+
+<applet archive="rotter.jar" code="Rotter.class" width="500" height="200"></applet>
+
+</body>
+</html>
